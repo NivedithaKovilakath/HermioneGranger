@@ -65,7 +65,7 @@ img {
     grid-template-columns: auto auto;
 }
 
-.grid-container{
+<!.grid-container{
     display: grid;
     grid-template-areas: 'aboutleft aboutright'
                           'aboutleft aboutright'
@@ -81,5 +81,5 @@ img {
 { text-align: center;
     padding: 10px;
   background-color: powderblue;      
-}
+}> 
 
