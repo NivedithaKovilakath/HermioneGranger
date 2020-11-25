@@ -61,7 +61,7 @@ img {
     grid-template-columns: auto auto;
 }
 
-.about
+.grid-container
 {
     display: grid;
     grid-template-columns: auto auto;
