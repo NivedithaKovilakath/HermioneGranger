@@ -10,7 +10,8 @@ h1 {
   padding-left: 10px;
   padding-bottom: 10px; 
   }
-h2 {
+h2 { 
+    font-size: 45px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding: 30px
 }
