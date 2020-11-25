@@ -69,13 +69,11 @@ img {
     display: grid;
     grid-template-areas: 'aboutleft aboutright'
                           'aboutleft aboutright'
-                          'aboutleft aboutright'
                           'workleft workright'
                           'workleft workright'
                            'workleft workright'
                           'contactleft contactright'
                           'contactleft contactright'
-                           'contactleft contactright'
 }
 .grid-container > div
 { text-align: center;
