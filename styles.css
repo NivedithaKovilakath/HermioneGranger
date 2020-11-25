@@ -13,7 +13,7 @@ h1 {
 
 p { 
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-color: rgb(16, 4, 126);
+color: #000000;
 text-align: right;
 font-size: 25px;
 padding-right: 100px;
@@ -46,17 +46,17 @@ img {
 }
 
 .nav-link-wrap a {
- color:#3d49b4;
+ color:#000000;
  text-decoration: none;
  transition: color 0.5s;
 
 }
 .nav-link-wrap:hover {
- border-bottom: 2px solid #3d49b4;
+ border-bottom: 2px solid #000000;
 }
 
 .nav-link-wrap a:hover {
- color: solid #3d49b4;
+ color: solid #000000;
 }
 
 .home
