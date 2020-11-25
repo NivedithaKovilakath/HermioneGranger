@@ -19,11 +19,6 @@ font-size: 25px;
 padding-right: 100px;
 }
 
-img { 
-  float:left;
-  padding-left:100px;    
-  }    
-
 .nav-wrapper{
  display: flex;
  padding: 15px;
