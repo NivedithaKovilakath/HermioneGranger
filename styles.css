@@ -55,3 +55,53 @@ img {
 .nav-link-wrap a:hover {
  color: solid #000000;
 }
+.home
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.about
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.aboutleft
+{
+    display: grid;
+    grid-template-rows: auto auto;
+
+}
+
+.aboutright
+{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.work
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.workleft
+{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.contact
+{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.contactright
+{
+    display: grid;
+    grid-template-rows: auto auto;
+
+}
