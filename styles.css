@@ -18,7 +18,9 @@ text-align: right;
 font-size: 25px;
 padding-right: 100px;
 }
-
+img { 
+    padding:100px;
+}
 .nav-wrapper{
  display: flex;
  padding: 15px;
