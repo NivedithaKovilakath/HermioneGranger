@@ -68,7 +68,7 @@ img {
 .about
 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 200px 200px;
 }
 
 .aboutleft
@@ -81,7 +81,7 @@ img {
 .aboutright
 {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: 50px auto;
 }
 
 .work
