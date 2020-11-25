@@ -68,7 +68,7 @@ img {
 .about
 {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .aboutleft
@@ -87,7 +87,7 @@ img {
 .work
 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 .workleft
@@ -99,7 +99,7 @@ img {
 .contact
 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
 
 }
 
