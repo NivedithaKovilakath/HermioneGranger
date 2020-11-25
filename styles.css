@@ -1,0 +1,27 @@
+.nav-wrapper{
+    display: flex;
+    padding: 15px;
+    background color: #FFFF00;
+    
+}
+
+.nav-wrapper > div {
+
+    margin: 10 px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.nav-link-wrap{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.nav-link-wrap a {
+    color:#3d49b4;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
