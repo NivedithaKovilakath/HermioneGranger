@@ -67,20 +67,14 @@ img {
     grid-template-columns: auto auto;
 }
 
-.aboutleft
+.item1
 {
-   grid-coloumn-start: 2;
-   grid-coloumn-end: 4;
-   grid-row-start: 1;
-   grid-row-end: 4; 
+   grid-coloumn: 1;
  }
 
-.aboutright
+.item2
 {
-   grid-coloumn-start: 5;
-   grid-coloumn-end: 7;
-   grid-row-start: 1;
-   grid-row-end: 4;
+   grid-coloumn-start: 2;
 }
 
 .work
