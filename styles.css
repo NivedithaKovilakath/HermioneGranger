@@ -10,6 +10,10 @@ h1 {
   padding-left: 10px;
   padding-bottom: 10px; 
   }
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding: 30px
+}
 
 p { 
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
