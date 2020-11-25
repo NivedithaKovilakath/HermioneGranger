@@ -64,43 +64,15 @@ img {
 .grid-container
 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-areas: 'aboutleft aboutright'
+                          'aboutleft aboutright'
+                          'aboutleft aboutright'
+                          'workleft workright'
+                          'workleft workright'
+                           'workleft workright'
+                          'contactleft contactright'
+                          'contactleft contactright'
+                           'contactleft contactright'
 }
 
-.item1
-{
-   grid-coloumn: 1;
-   grid-row: 1/3; 
- }
 
-.item2
-{
-   grid-coloumn: 2;
-    grid-row: 1/3;  
-}
-
-.work
-{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.workleft
-{
-    display: grid;
-    grid-template-rows: auto auto;
-}
-
-.contact
-{
-    display: grid;
-    grid-template-columns: auto auto;
-
-}
-
-.contactright
-{
-    display: grid;
-    grid-template-rows: auto auto;
-
-}
