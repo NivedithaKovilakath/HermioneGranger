@@ -77,7 +77,7 @@ img {
                            'contactleft contactright'
 }
 .grid-container > div
-{ text-align="center"
-    padding=10px
+{ text-align: center;
+    padding: 10px
 }
 
