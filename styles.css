@@ -13,12 +13,19 @@ h1 {
 h2 { 
     font-size: 45px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-   padding: 30px;
+   
+   text-align: left;
 }
 h3{
+    padding-top: 100px;
     text-align: justify;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 35px;
+}
+h4{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 24px;
+    text-align: left;
 }
 p { 
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -75,21 +82,57 @@ img {
     grid-template-columns: 1fr 1fr;
     
 }
+.homeimage{
+    padding-top: 40px;
+    padding-left: 50px;
+}
 
 .about{
-    margin-top: 60px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.aboutleft{
+    padding-left: 50px;
+}
+.aboutright{
+    padding-right: 50px;
+}
  .work{
-    margin-top: 60px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
  }
 
+ .workleft{
+     padding-left: 60px;
+ }
+
+ .workright{
+     padding-right: 50px;
+ }
+
  .contact
  {
-    margin-top: 60px;
+    margin-top: px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
+ }
+
+ .contactleft{
+     padding-left: 50px;
+     padding-bottom: 100;
+ }
+
+ .contactright{
+     padding-left: 60px;
+     padding-top: 30px;
+ }
+
+ .address{
+     display: grid;
+     grid-template-columns: 300px 300px;
+
  }
