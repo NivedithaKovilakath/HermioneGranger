@@ -35,7 +35,7 @@ font-size: 25px;
 padding-right: 100px;  
 }
 img { 
-    padding:40px;
+    
     align-content: center;
 }
 .nav-wrapper{
@@ -80,21 +80,26 @@ img {
     margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
+    padding-top:50px;
     
 }
 .homeimage{
     padding-top: 40px;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .about{
     margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top:50px;
+    padding-bottom: 40px;
+    padding-right:50px; 
 }
 
 .aboutleft{
-    padding-left: 50px;
+    padding-left: 60px;
 }
 .aboutright{
     padding-right: 50px;
@@ -103,6 +108,7 @@ img {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top:50px;
  }
 
  .workleft{
@@ -115,19 +121,19 @@ img {
 
  .contact
  {
-    margin-top: px;
+    margin-top: 100px;
     
     display: grid;
     grid-template-columns: 1fr 1fr;
  }
 
  .contactleft{
-     padding-left: 50px;
+     padding-left: 60px;
      padding-bottom: 100;
  }
 
  .contactright{
-     padding-left: 60px;
+     padding-left: 50px;
      padding-top: 30px;
  }
 
