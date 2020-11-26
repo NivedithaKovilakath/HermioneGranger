@@ -10,6 +10,16 @@ h1 {
   padding-left: 0px;
   padding-bottom: 10px; 
   }
+.typewriter {
+  overflow: hidden;
+  whitespace: nowrap;  
+  animation: animated-text 2s steps(25,end) 1s 1 normal both;
+  margin: 0 auto;  
+}
+@keyframes animated-text {
+    from{width:0;}
+    to{width:100%;}
+}
 h2 { 
     font-size: 45px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
