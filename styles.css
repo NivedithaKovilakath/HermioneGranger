@@ -1,6 +1,23 @@
 body {
-    background-color: #e9ce9c;
+    width: 100%;
+    
+    background: linear-gradient(-45deg, #f0ee7f, #f1f502d3, #e75d44, #cf7d20);
+    background-size: 400% 400%;
+    position: relative;
+    animation: shift 10s ease-in-out infinite;
      }
+
+@keyframes shift{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
 h1 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   text-align: center;
@@ -12,7 +29,7 @@ h1 {
   }
 .typewriter {
   overflow: hidden;
-  whitespace: nowrap;  
+  white-space: nowrap;  
   animation: animated-text 2s steps(25,end) 1s 1 normal both;
   margin: 0 auto;  
 }
@@ -63,6 +80,7 @@ img {
  margin: 1 px;
  padding: 20px;
  text-transform: uppercase;
+ font-size: 1.5em;
 }
 
 .nav-link-wrap{
@@ -73,18 +91,18 @@ img {
 }
 
 .nav-link-wrap a {
- color: #e9ce9c;
+ color:#e7d912d3;
  text-decoration: none;
  transition: color 0.5s;
 
 }
 .nav-link-wrap:hover {
- border-bottom: 2px solid #e9ce9c;
+ border-bottom: 2px solid #e7d912d3;
 }
 
 .nav-link-wrap a:hover {
     background-color: #000000;
-    color: solid #e9ce9c ;
+    color: solid #e7d912d3 ;
 }
 .home{
     margin-top: 60px;
