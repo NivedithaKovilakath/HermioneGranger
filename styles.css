@@ -7,27 +7,37 @@ h1 {
   font-size: 60px;
   padding-top: 100px;
   padding-right: 100px;
-  padding-left: 100px;
+  padding-left: 10px;
   padding-bottom: 10px; 
   }
-
+h2 { 
+    font-size: 45px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   padding: 30px;
+}
+h3{
+    text-align: justify;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 35px;
+}
 p { 
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 color: #000000;
-text-align: right;
+text-align: justify;
 font-size: 25px;
-/* padding-right: 100px; */
+padding-right: 100px;  
 }
-
 img { 
-  /* float:left; */
-  /*padding-left:10px; */
-  }    
-
+    padding:40px;
+    align-content: center;
+}
 .nav-wrapper{
+    position: fixed;
+    top: 0;  
  display: flex;
  padding: 15px;
- background color: #FFFF00;
+ background-color: #000000;
+ width: 100% ;
  
 }
 
@@ -46,66 +56,40 @@ img {
 }
 
 .nav-link-wrap a {
- color:#000000;
+ color: #e9ce9c;
  text-decoration: none;
  transition: color 0.5s;
 
 }
 .nav-link-wrap:hover {
- border-bottom: 2px solid #000000;
+ border-bottom: 2px solid #e9ce9c;
 }
 
 .nav-link-wrap a:hover {
- color: solid #000000;
+    background-color: #e9ce9c;
+    color: solid #e9ce9c ;
 }
-
-.home
-{
+.home{
+    margin-top: 60px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
-.about
-{
+.about{
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-.aboutleft
-{
-    display: grid;
-    grid-template-rows: auto auto;
-
-}
-
-.aboutright
-{
-    display: grid;
-    grid-template-rows: auto auto;
-}
-
-.work
-{
+ .work{
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+ }
 
-.workleft
-{
-    display: grid;
-    grid-template-rows: auto auto;
-}
-
-.contact
-{
+ .contact
+ {
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-}
-
-.contactright
-{
-    display: grid;
-    grid-template-rows: auto auto;
-
-}
+ }
