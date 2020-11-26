@@ -1,2 +1,2 @@
-# HermoineGranger
+# HermioneGranger
 Portfolio Website
